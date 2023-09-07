@@ -1,6 +1,9 @@
 from kivy.app import App
 from kivy.lang import Builder
-from kivy.uix.boxlayout import BoxLayout
+
+from app.screens.game.game_screen import GameScreen
+from app.screens.menu.menu_screen import MenuScreen
+from app.screens.menu.widgets.content import OnlineModeBox, PapersBox, SettingsBox, StatisticBox
 
 from kivy.uix.screenmanager import ScreenManager
 
